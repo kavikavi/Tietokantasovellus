@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Usein kysytyt kysymykset</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/bootstrap-theme.css" rel="stylesheet">
+        <link href="../css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <ul class="nav nav-tabs">
+            <li><a href="htmldemo.html">Etusivu</a></li>
+            <li class="active"><a href="Kysymykset.html">Kysymykset</a></li>
+            <li><a href="TeeKysymys.html">Tee kysymys</a></li>
+            <li><a href="Opintoneuvoja.html">Opintoneuvoja</a></li>
+            <li><a href="Yllapitaja.html">Ylläpitäjä</a></li>
+        </ul>
+        <div class="container">
+            <h1>Kysymykset</h1>
+            
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Navigaatio</h2>
+                        <div class="panel panel-default">
+                            <ul class="nav">
+                                <li class="active"><a href="Kysymykset.html">Hae kysymyksiä</a></li>
+                                <li><a href="KysymyksetAihepiireittain.html">Aihepiireittäin</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Hae kysymyksiä</h3>
+                    <form class="form-horizontal" role="form" action="lomake.html" method="POST">
+                        <div class="form-group">
+                            <label for="inputHaku" class="col-md-2 control-label">Hakusanat</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="inputHaku" name="Haku" placeholder="Haku">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <button type="submit" class="btn btn-default">Hae</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
